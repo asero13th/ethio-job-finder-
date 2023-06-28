@@ -1,0 +1,125 @@
+.header{
+    width: 100%;
+    height: 80vh;
+    background-image: url("./assets/images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header-title{
+    position: absolute;
+    top: 7rem;
+    left: 50rem;
+    letter-spacing: 3;
+    font-weight: bolder;
+    font-size: 52px;
+    color: white;
+    text-shadow: 4px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.header-title > span{
+    color: #0076de;
+}
+.search-wraper{
+    width: 60%;
+    margin: auto;
+    min-width: 300px;
+    height: 3.5rem;
+    position: relative;
+}
+.search-box{
+    width: 45%;
+    position: absolute;
+    background-color: #f6f8fa;
+    box-shadow: rgba(2, 11, 20, 0.2) 0px 5px 15px;
+    top: 31rem;
+    height: 50px;
+    left: 22rem;
+    
+}
+.search-card{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0.2rem;
+   
+}
+.search-input{
+    height: 100%;
+    width: 100%;
+    border: none;
+
+}
+.custom-button{
+    width: 200px;
+ 
+}
+.background-grey{
+    background-color: #f6f8fa;
+}
+.display-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-image{
+    width: 10%;
+}
+.box-shadow{
+    box-shadow: rgba(2, 11, 20, 0.2) 0px 5px 15px;
+}
+.when-hover:hover{
+    box-shadow: rgba(2, 11, 20, 0.2) 0px 5px 15px;   
+}
+.custom-image{
+    width: 100%;
+    height: 50vh;
+    box-shadow: rgba(2, 11, 20, 0.2) 0px 5px 15px;  
+    background: linear-gradient(180deg, rgba(0,85, 177, 0.6), rgba(0, 122, 255, 0.5)), url('./assets/images/stock.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+
+}
+.custom-image > div > h1{
+    color: white;
+    align-self: center;
+}
+.custom-image  p{
+    color: white;
+   
+}
+.custom-btn{
+    padding: 12px 55px;
+}
+.background-attachement{
+    background-size: cover;
+	background-position: right top;
+	background-attachment: fixed;
+	font-size: medium;
+	font-family: cursive;
+}
+.card{
+    box-shadow:  rgba(2, 11, 20, 0.2) 0px 5px 15px;
+}
+.foot div p a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .foot div p a:hover{
+    color: #0076de;
+  }
+  .foot div p h3{
+    font-size: 20px;
+  }
+
+  .copyright{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+  }
